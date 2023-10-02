@@ -513,6 +513,31 @@
     (uuid f4f6aa33-cd31-41e5-bdce-69622dda3fa9)
   )
 
+  (symbol (lib_id "power:+3.3V") (at 30.48 44.45 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0f067f85-183d-4bbe-8452-349bd006dde3)
+    (property "Reference" "#PWR02" (at 34.29 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 26.67 44.45 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 30.48 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 30.48 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 33db4c53-9a48-4213-82ed-c2c2c171a74f))
+    (instances
+      (project "Way to silence"
+        (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Way to silence:R") (at 39.37 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 252667ed-befa-4a6c-b96f-27c7e687772a)
@@ -753,31 +778,6 @@
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
           (reference "R5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 30.48 44.45 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b9798fd8-ec38-4a48-b340-0e6c58453509)
-    (property "Reference" "#PWR04" (at 24.13 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 26.67 44.45 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 30.48 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 30.48 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid acd4e748-140c-4e6a-afcd-fcfff1e5c78c))
-    (instances
-      (project "Way to silence"
-        (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
-          (reference "#PWR04") (unit 1)
         )
       )
     )
