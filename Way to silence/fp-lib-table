@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Way to silence")(type "KiCad")(uri "${KIPRJMOD}/Way to silence.pretty")(options "")(descr ""))
+)

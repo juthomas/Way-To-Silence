@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Way to silence")(type "KiCad")(uri "${KIPRJMOD}/Way to silence.kicad_sym")(options "")(descr ""))
+)
