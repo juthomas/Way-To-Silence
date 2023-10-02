@@ -18,7 +18,7 @@
 - [CH340C](https://www.lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH340C_C84681.html) € 0.45
 
 - [BMS SM5308](https://www.lcsc.com/product-detail/Battery-Management-ICs_HICHON-SM5308_C5345582.html) € 0.2758
-
+- [USB C Connector](https://jlcpcb.com/partdetail/Dealon-USB_TYPE_C018/C2927038) $ 0.0479
 ## Tools used
 
 - [EasyEDA to KiCad](https://wokwi.com/tools/easyeda2kicad)
