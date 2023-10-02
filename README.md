@@ -19,6 +19,8 @@
 
 - [BMS SM5308](https://www.lcsc.com/product-detail/Battery-Management-ICs_HICHON-SM5308_C5345582.html) € 0.2758
 - [USB C Connector](https://jlcpcb.com/partdetail/Dealon-USB_TYPE_C018/C2927038) $ 0.0479
+- [3.3V Regulator](https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_UMW-Youtai-Semiconductor-Co-Ltd-AMS1117-2-5_C347221.html) € 0.0398
+
 ## Tools used
 
 - [EasyEDA to KiCad](https://wokwi.com/tools/easyeda2kicad)
@@ -27,3 +29,4 @@
 - [JCLPCB](https://jlcpcb.com/)
 - https://jlcpcb.com/help/article/81-How-to-generate-the-BOM-and-Centroid-file-from-KiCAD
 - https://www.youtube.com/watch?v=VejO8rDdhzo
+- https://www.pcbway.com/blog/PCB_Design_Tutorial/How_to_add_USB_C_to_your_projects.html
