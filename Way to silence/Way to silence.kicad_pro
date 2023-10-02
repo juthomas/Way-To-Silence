@@ -330,6 +330,10 @@
     [
       "7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10",
       "SD Card"
+    ],
+    [
+      "a2ee35dd-b0f9-4eed-a2dd-4bc114f32cf5",
+      "USB to Uart"
     ]
   ],
   "text_variables": {}
