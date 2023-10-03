@@ -334,6 +334,10 @@
     [
       "a2ee35dd-b0f9-4eed-a2dd-4bc114f32cf5",
       "USB to Uart"
+    ],
+    [
+      "7708567a-63f7-491b-967e-673f1a10dffd",
+      "I2S Amp"
     ]
   ],
   "text_variables": {}

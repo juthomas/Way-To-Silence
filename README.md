@@ -21,6 +21,9 @@
 - [USB C Connector](https://jlcpcb.com/partdetail/Dealon-USB_TYPE_C018/C2927038) $ 0.0479
 - [3.3V Regulator](https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_UMW-Youtai-Semiconductor-Co-Ltd-AMS1117-2-5_C347221.html) € 0.0398
 
+- [Bornier 3.5mm](https://www.lcsc.com/product-detail/Screw-terminal_Ningbo-Xinlaiya-Elec-XY350V-3-5-2P_C784942.html) € 0.1065
+
+
 ## Tools used
 
 - [EasyEDA to KiCad](https://wokwi.com/tools/easyeda2kicad)
