@@ -374,6 +374,7 @@
 
 
   (no_connect (at 120.65 71.12) (uuid 06f16488-829e-4e4d-9d7e-9548d339e904))
+  (no_connect (at 82.55 58.42) (uuid 26d6faf5-728b-4a88-9932-50f4650cc4d6))
   (no_connect (at 120.65 66.04) (uuid 4ce88c43-283b-4e91-a1fc-885a60e22762))
   (no_connect (at 120.65 68.58) (uuid 5312dfce-d28a-4260-9d7c-8f3b01089c2e))
   (no_connect (at 176.53 95.25) (uuid 595466c2-c5d7-4961-95d4-55f6027e2c04))
@@ -384,8 +385,10 @@
   (no_connect (at 176.53 92.71) (uuid bf410a84-6f95-4fa4-9556-83f4e5936bf6))
   (no_connect (at 199.39 55.88) (uuid cffed649-5ff3-47d5-88f2-d962118c8ebd))
   (no_connect (at 176.53 90.17) (uuid df13be8f-b8f8-49b2-9415-08b4ae0d03e7))
+  (no_connect (at 82.55 63.5) (uuid e0a860da-93c2-449f-ade0-ac327f3f6c2e))
   (no_connect (at 199.39 58.42) (uuid e6c920a1-7bb7-46cf-b4e0-b0fbc9e22f46))
   (no_connect (at 176.53 87.63) (uuid ee11073f-c273-4c2a-b2c0-a91d104a8d79))
+  (no_connect (at 82.55 60.96) (uuid fb2efdec-246c-4530-af3d-53606cff57af))
   (no_connect (at 199.39 66.04) (uuid fd8e5634-0379-41af-ad2f-49d359afb9c1))
 
   (symbol (lib_id "power:PWR_FLAG") (at 177.8 25.4 0) (unit 1)
@@ -720,6 +723,18 @@
     )
     (property "Sheetfile" "battery_management.kicad_sch" (at 82.55 72.9746 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "VIN" bidirectional (at 82.55 58.42 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 8967139f-eb4a-4562-ae08-503749a23326)
+    )
+    (pin "VOUT" bidirectional (at 82.55 60.96 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid cf22d6cf-aa41-4c06-bf43-4898d7553268)
+    )
+    (pin "BAT" bidirectional (at 82.55 63.5 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 5c7e62d3-4d90-458d-a911-d08e6d8c238e)
     )
     (instances
       (project "Way to silence"
