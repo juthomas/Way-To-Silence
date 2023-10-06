@@ -773,6 +773,9 @@
     (property "Datasheet" "~" (at 109.22 53.34 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C53987" (at 109.22 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid be63b659-3595-4af5-bd5d-2f051907605c))
     (pin "2" (uuid ba2a2fdf-a954-4e85-871d-32d840b3f441))
     (instances
@@ -1200,7 +1203,7 @@
     (property "Datasheet" "~" (at 127 53.34 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C705486" (at 127 53.34 90)
+    (property "LCSC" "C111027" (at 127 53.34 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bed08e11-8db2-4bb5-9314-67e7e6fa0682))
