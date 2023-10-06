@@ -27,4 +27,9 @@
     (stroke (width 0.254) (type solid)) (layer "F.SilkS") (tstamp ffb00441-22b1-447d-a8a3-66c8a3f6f69c))
   (pad "1" smd rect (at -2 0 90) (size 2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6b2bd81e-7b98-4cc5-98ee-a963026661a2))
   (pad "2" smd rect (at 2 0 90) (size 2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8c5394fd-522f-4ddd-9823-2403126b59f5))
+  (model ":KICAD7_3DMODEL_DIR:Inductor_SMD.3dshapes/L_Bourns_SRP2313AA.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 0.2 0.2 0.2))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -61,4 +61,9 @@
     (stroke (width 0.152) (type solid)) (layer "F.SilkS") (tstamp 37e9891c-db7e-4f28-862e-5ed231905f51))
   (pad "1" smd rect (at -0.7 0 180) (size 0.8 0.864) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 410c410e-8945-45a7-a8a8-260801221f5e))
   (pad "2" smd rect (at 0.7 0 180) (size 0.8 0.864) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0fd902ac-407e-4b9d-aa4f-ae41d64d6335))
+  (model ":KICAD7_3DMODEL_DIR:Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
