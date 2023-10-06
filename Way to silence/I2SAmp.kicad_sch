@@ -1064,7 +1064,7 @@
     (property "Reference" "J2" (at 138.43 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Screw_Terminal_01x02" (at 129.54 40.64 0)
+    (property "Value" "Amplificator_Terminal" (at 129.54 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Way to silence:Screw_Terminal_3.5" (at 139.7 35.56 0)
