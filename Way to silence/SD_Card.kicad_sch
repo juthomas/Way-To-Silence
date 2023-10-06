@@ -12,7 +12,7 @@
       (property "Value" "C" (at 2.54 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "" (at 3.81 0.9652 90)
+      (property "Footprint" "Way to silence:C_0603_1608Metric" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (at 0 0 90)
@@ -63,7 +63,7 @@
       (property "Value" "R" (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (at 0 -1.778 0)
+      (property "Footprint" "Way to silence:R_0603_1608Metric" (at 1.27 3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (at 0 0 90)
@@ -528,7 +528,7 @@
     (property "Datasheet" "" (at 30.48 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33db4c53-9a48-4213-82ed-c2c2c171a74f))
+    (pin "1" (uuid f52ce34c-9422-4f49-a5c7-d73d473123ea))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
@@ -547,14 +547,14 @@
     (property "Value" "10K" (at 41.91 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 39.37 46.228 0)
+    (property "Footprint" "Way to silence:R_0603_1608Metric" (at 39.37 46.228 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 39.37 44.45 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid edc8375d-db9b-4813-b2b7-31c26fdde040))
-    (pin "2" (uuid 2ef29ba7-1da7-42f5-b770-d4760f94c145))
+    (pin "1" (uuid 826d40da-9eeb-48dc-b7ea-74f7bb3e70c7))
+    (pin "2" (uuid bc043c19-3bd2-4c12-8929-b7b7882cd681))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
@@ -573,14 +573,14 @@
     (property "Value" "100nF" (at 77.47 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 81.28 25.7048 90)
+    (property "Footprint" "Way to silence:C_0603_1608Metric" (at 81.28 25.7048 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 77.47 26.67 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6491183a-0bfa-418b-83af-0b1e921d625c))
-    (pin "2" (uuid 0edebefc-1c14-4271-bf3e-71ca116b707c))
+    (pin "1" (uuid 0b3b57a2-ea25-4844-8e3e-79a24462754b))
+    (pin "2" (uuid f9af2346-5c9a-4db2-84c2-c6a19998a63b))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
@@ -608,16 +608,16 @@
     (property "LCSC" "C5155564" (at 87.63 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ecdc2e32-7c5d-4d30-8782-96c4d6e7af4a))
-    (pin "2" (uuid e44d2b34-1fa5-4395-862c-0ef6c63aec11))
-    (pin "3" (uuid b16285cb-70ea-4cfa-a1a3-9802d08dcc4a))
-    (pin "4" (uuid 096f82c6-4a0d-445c-91cd-df289a06389b))
-    (pin "5" (uuid 222b82fc-b5ab-4191-9f3d-237de47a701f))
-    (pin "6" (uuid 23aa3f95-97d6-410b-b010-15c780fa0236))
-    (pin "7" (uuid 706b2b8a-9cd2-40a9-8a3a-aa7b92c57bfb))
-    (pin "8" (uuid f81137d7-fe4f-4bff-b4d1-713b0e73923b))
-    (pin "CD" (uuid fdd868ca-e066-44e4-9741-0d4f5b61da4a))
-    (pin "G" (uuid 30884d15-2bb4-440f-9fbb-9c6d54dabd81))
+    (pin "1" (uuid 506dd097-3897-4aca-9437-e707a6bdd595))
+    (pin "2" (uuid e9c46c2c-37db-41bc-a890-ec1884c613ff))
+    (pin "3" (uuid 2b306c90-a9c1-42c3-b69c-5f8b1ea82fcb))
+    (pin "4" (uuid 2731d57f-ab96-4296-a8bd-fe0502f23b9e))
+    (pin "5" (uuid 63e12db2-d132-4ad8-8d8a-7638568c253d))
+    (pin "6" (uuid f868e3fe-196f-4cdb-9590-49b6771533c2))
+    (pin "7" (uuid 840290d9-518b-44fe-97ff-a603392cfb1c))
+    (pin "8" (uuid 34b2beaa-f23e-4d2d-a09a-ae2c160c938f))
+    (pin "CD" (uuid 417c2561-5db4-47e1-b366-b26c291d8585))
+    (pin "G" (uuid 41ffa809-07ac-4414-8163-733375e454f8))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -645,7 +645,7 @@
     (property "Datasheet" "" (at 62.23 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7eedcdfe-3ee3-4713-a877-6025867f28bc))
+    (pin "1" (uuid 483163cd-9112-41a7-8789-a0fee962d554))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
@@ -670,7 +670,7 @@
     (property "Datasheet" "" (at 106.68 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e8030c69-b361-4f30-a370-3fab3c7441e2))
+    (pin "1" (uuid 65ed20cf-0216-40fe-a9f1-6e80c3c5980e))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
@@ -689,14 +689,14 @@
     (property "Value" "10K" (at 41.91 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 39.37 41.148 0)
+    (property "Footprint" "Way to silence:R_0603_1608Metric" (at 39.37 41.148 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 39.37 39.37 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b8735276-3f2b-482a-9231-5cd8c703ffde))
-    (pin "2" (uuid 83d52dd0-e5fc-415c-8fb1-26dcf9c0a11c))
+    (pin "1" (uuid 2c164f52-ddcb-4e37-b0b3-18c78978b1b3))
+    (pin "2" (uuid acd64c99-3260-4b47-ae75-b12597920a26))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
@@ -721,7 +721,7 @@
     (property "Datasheet" "" (at 85.09 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c299bd72-f29b-44ad-ad03-0ae1537e1613))
+    (pin "1" (uuid 23e2a9e4-8247-42ea-aaa2-9b803f3cfebe))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
@@ -740,14 +740,14 @@
     (property "Value" "10K" (at 41.91 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 39.37 51.308 0)
+    (property "Footprint" "Way to silence:R_0603_1608Metric" (at 39.37 51.308 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 39.37 49.53 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ee35f25f-d8fa-436d-bc16-e53ca1c07bca))
-    (pin "2" (uuid 3b60bc21-9d6a-43fa-8e96-a0fba85a856d))
+    (pin "1" (uuid 9d77acb1-d7ed-462c-bc37-e2ae4521ce55))
+    (pin "2" (uuid 4a08b2ef-3ab7-488c-bcf5-386ddac54915))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
@@ -766,14 +766,14 @@
     (property "Value" "10K" (at 41.91 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 39.37 56.388 0)
+    (property "Footprint" "Way to silence:R_0603_1608Metric" (at 39.37 56.388 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 39.37 54.61 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b08818c-7fff-4fcb-bcd6-5d6e3bb20a65))
-    (pin "2" (uuid 6bd171d4-4bfa-4378-8482-722d318793b6))
+    (pin "1" (uuid c7ce7508-b30c-4f04-b50c-d7ea65af2fa0))
+    (pin "2" (uuid 7f700303-a8f9-4f02-9d52-33b9e9a87ac0))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
@@ -798,7 +798,7 @@
     (property "Datasheet" "" (at 69.85 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f422a56c-c2f3-4ae1-bd6b-ff23daa83a6e))
+    (pin "1" (uuid 395b0df8-6370-4312-94cb-92a9d216187d))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
@@ -817,14 +817,14 @@
     (property "Value" "10K" (at 41.91 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 39.37 36.068 0)
+    (property "Footprint" "Way to silence:R_0603_1608Metric" (at 39.37 36.068 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 39.37 34.29 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid be637ff8-c225-4fa5-922c-ee597d11bc44))
-    (pin "2" (uuid 4561c722-c0ec-421d-bb49-cda8953681e5))
+    (pin "1" (uuid e9474c09-7405-4413-90b0-afc75536c1a7))
+    (pin "2" (uuid 0e4ab01e-ea7a-446b-b2ee-41368e7117c1))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"
@@ -849,7 +849,7 @@
     (property "Datasheet" "" (at 63.5 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid afe04082-7b64-46fc-9c5b-bfc5527af42e))
+    (pin "1" (uuid e0cb47b4-3b91-40ad-ba45-f3c1ffa772ac))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215/7c0f88b3-e6fc-4dba-9c89-0d3e4a828f10"

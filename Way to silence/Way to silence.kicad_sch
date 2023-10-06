@@ -6,19 +6,16 @@
 
   (lib_symbols
     (symbol "Way to silence:AMS1117CD-3.3" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "U6" (at -3.81 6.35 0)
+      (property "Reference" "U" (at -3.81 6.35 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "AMS1117CD-3.3" (at 10.16 6.35 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "AMS1117CD-3.3" (at 2.54 6.35 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2" (at 1.27 22.86 0)
+      (property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2" (at 0 17.78 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110111730_UMW-Youtai-Semiconductor-Co---Ltd--AMS1117-3-3_C347222.pdf" (at 2.54 25.4 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LCSC" "C347222" (at 0 22.86 0)
+      (property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf" (at 1.27 20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "linear regulator ldo fixed positive" (at 0 0 0)
@@ -62,7 +59,7 @@
       (property "Value" "C" (at 2.54 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "" (at 3.81 0.9652 90)
+      (property "Footprint" "Way to silence:C_0603_1608Metric" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (at 0 0 90)
@@ -294,10 +291,13 @@
       (property "Value" "LED" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (at 0 0 0)
+      (property "Footprint" "Way to silence:LED_0603" (at 0 7.62 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC" "C84263" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "LED diode" (at 0 0 0)
@@ -377,7 +377,7 @@
       (property "Value" "R" (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (at 0 -1.778 0)
+      (property "Footprint" "Way to silence:R_0603_1608Metric" (at 1.27 3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (at 0 0 90)
@@ -410,19 +410,16 @@
       )
     )
     (symbol "Way to silence:SW_SPDT" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "SW1" (at 0 7.62 0)
+      (property "Reference" "SW" (at 0 4.318 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "SW_SPDT" (at 0 5.08 0)
+      (property "Value" "SW_SPDT" (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Way to silence:SW_SPDT" (at -1.27 13.97 0)
+      (property "Footprint" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "https://github.com/juthomas/Way-To-Silence/blob/main/DataSheets/K3-1204D.pdf" (at 0 11.43 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LCSC" "C145861" (at -1.27 16.51 0)
+      (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "switch single-pole double-throw spdt ON-ON" (at 0 0 0)
@@ -997,7 +994,7 @@
     (property "Datasheet" "" (at 113.03 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 510b839d-6634-4c0b-9b05-97ac0cc379ba))
+    (pin "1" (uuid d8146a7a-3ec7-41d1-8d4a-cfb343856dd5))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1022,7 +1019,7 @@
     (property "Datasheet" "" (at 154.94 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8cffa36d-5745-45cc-a054-9f2f1c1348e9))
+    (pin "1" (uuid f973b871-a400-4307-afdd-281538f05909))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1050,45 +1047,45 @@
     (property "LCSC" "C529581" (at 41.91 8.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 58063701-fd29-4231-84e3-a78e47816af2))
-    (pin "10" (uuid 1f8c436f-d147-4e5b-8aa3-88d3633ebcd7))
-    (pin "11" (uuid 5df016f6-110b-4262-916c-f6d7e7d76236))
-    (pin "12" (uuid 9e95e675-507b-4fd2-9846-32d27789079d))
-    (pin "13" (uuid 4771ced3-c9c6-4f2d-8fba-f79c8389b013))
-    (pin "14" (uuid 5d0f8d20-b401-4b36-a3cd-a5f40dfc234b))
-    (pin "15" (uuid 5a43686e-a9c1-480d-b36b-35de84a89dd6))
-    (pin "16" (uuid 46f3cd21-2935-40d4-badc-ac86e489b5f7))
-    (pin "17" (uuid 9f84a164-aab1-4b17-b1e8-3289fa57cefa))
-    (pin "18" (uuid 9a232be2-371d-493c-9630-7f69516c4356))
-    (pin "19" (uuid 8ac2140e-717d-4434-9501-42fb4e0a635c))
-    (pin "2" (uuid 81ef6907-5fc1-47a3-bb3d-e8ef9ca69a46))
-    (pin "20" (uuid 138b278e-34d4-44a5-9293-49849699629c))
-    (pin "21" (uuid 022a6a5b-a6b8-462a-ae81-3991c17117fe))
-    (pin "22" (uuid 944894c6-d17c-49a8-a2cd-514ba73e7253))
-    (pin "23" (uuid 7437f578-5b83-48cd-8dbf-1fc1dec5bece))
-    (pin "24" (uuid 1eb5bbe4-6521-44a2-a6cc-56c4667678d6))
-    (pin "25" (uuid 519b8290-fdaa-4deb-a4f9-996f4b3a2985))
-    (pin "26" (uuid 422b4913-a56f-47ad-85b2-37208e836c56))
-    (pin "27" (uuid bc0367c5-3bf2-4d56-ae5e-c68abb191d59))
-    (pin "28" (uuid a55073fa-5db2-416e-9396-2622a77fceb2))
-    (pin "29" (uuid 7fbe4eb9-8be1-4362-b089-5e7b08037ee3))
-    (pin "3" (uuid 72d2a730-3a26-45e4-9797-61ae43c049fb))
-    (pin "30" (uuid b688cc4e-dc18-43d3-9e15-32019573ecc3))
-    (pin "31" (uuid c48b30b9-5793-4730-95b8-5bead32dee91))
-    (pin "32" (uuid 5a4a106b-3160-417c-920a-4b5a494bc60b))
-    (pin "33" (uuid 5e77c8e0-2dd8-4bb3-94ea-4941d923ddcd))
-    (pin "34" (uuid 8d843622-875f-4f9e-af89-bf22a85e9454))
-    (pin "35" (uuid 5c0f52f9-1839-4d10-9d76-46b93479e009))
-    (pin "36" (uuid 534f8ab3-6972-439f-a421-27a5cf25fe3d))
-    (pin "37" (uuid 93aa873e-bb3a-49bd-9000-f318954baca8))
-    (pin "38" (uuid 7f0a5306-89a2-4b74-ad6f-7b6c27e33a3e))
-    (pin "39" (uuid db36c654-dc7c-4236-9b24-d1edeb416b19))
-    (pin "4" (uuid 91197a70-2531-4ffc-9a2c-a24aba3dfd32))
-    (pin "5" (uuid 17cd4d8b-ad61-42a6-bfad-59e3cdffbe9e))
-    (pin "6" (uuid d92789d1-629b-4880-acda-5dbba4a9d9b1))
-    (pin "7" (uuid 6a4d6885-0b9a-4368-9c7b-45b649dae48e))
-    (pin "8" (uuid be6db5a5-0596-4986-b4bb-930cd527a8b4))
-    (pin "9" (uuid 34b36767-8073-41ba-8102-a4fe3ee6ce18))
+    (pin "1" (uuid 60980ded-bfd9-4d17-b4a6-343c2b2def68))
+    (pin "10" (uuid b453b4f2-f025-41f2-9a08-1f7f68416dc3))
+    (pin "11" (uuid e38e0f3d-f0f8-4c73-bd82-6c6f4b08253d))
+    (pin "12" (uuid d3ec6e06-7094-46bb-806a-d48cfd4e1945))
+    (pin "13" (uuid c523bda7-fd66-4752-a5c5-5abff43031a2))
+    (pin "14" (uuid 7bcab717-0cac-4fa8-8322-0028f4533ae5))
+    (pin "15" (uuid c815abba-62e5-4eaa-b929-231434034c96))
+    (pin "16" (uuid b27acfc1-ad09-48ee-83dc-acb4ecc4e3f7))
+    (pin "17" (uuid a1ec7415-8ac4-438d-a487-b3604168ccc5))
+    (pin "18" (uuid dea2054d-6f4f-4775-b6a2-cef839d85299))
+    (pin "19" (uuid 0181bb86-d190-47bb-84c8-1fd17794fb2e))
+    (pin "2" (uuid 5112ad34-5359-4ae3-8056-a462ff746c31))
+    (pin "20" (uuid 27d3f06d-1551-4144-9407-188d522cec7e))
+    (pin "21" (uuid de756b0c-88b5-474c-b02a-9b247399f552))
+    (pin "22" (uuid ac5a0ac5-071e-4e85-8402-a3f1324975c8))
+    (pin "23" (uuid f22ec2f9-8066-4631-b749-f6e673748cbc))
+    (pin "24" (uuid 38cd8b3d-bdda-41dc-8e2f-332dd4bf8215))
+    (pin "25" (uuid 126c773b-cf04-4e94-8ba6-b5d277d61596))
+    (pin "26" (uuid 78fac3aa-1267-4b7e-bc58-e645b6e20631))
+    (pin "27" (uuid d7044077-0c73-487a-a4a0-c200efd607f1))
+    (pin "28" (uuid 048f3d25-75b6-40fb-9d56-a8acf8b18f0f))
+    (pin "29" (uuid fd719259-c550-4c6e-9080-b2210c88414a))
+    (pin "3" (uuid db9df9d7-531f-454f-a8d7-8432511e2f0d))
+    (pin "30" (uuid f2973df0-7b20-49da-8977-1a2598c29b5a))
+    (pin "31" (uuid f3b87b3a-99c0-4232-b6e4-445568d496f9))
+    (pin "32" (uuid a8c00054-29e3-4b95-8bff-380abe3d820e))
+    (pin "33" (uuid a8da8eea-49cd-40c7-af2b-b4a3613fb48f))
+    (pin "34" (uuid ef273a40-9c07-415a-bc9a-8aa3ad45ddb3))
+    (pin "35" (uuid cc2fd5b4-b3f3-47b6-bc68-d552a090d434))
+    (pin "36" (uuid 86bde1b1-d200-4069-b7b6-1e0e4e51fd45))
+    (pin "37" (uuid ee6e1d00-2dad-407b-9d80-e6b823235685))
+    (pin "38" (uuid d3a65cbd-857f-411e-98b6-e9b1d082f833))
+    (pin "39" (uuid f2cceca2-d87a-4289-a125-1af8ae822164))
+    (pin "4" (uuid d7bfade0-e5b6-4283-bc2a-f7b987de4144))
+    (pin "5" (uuid 8ad6f52d-812c-4606-8893-04e61465cdbe))
+    (pin "6" (uuid 78a19480-6648-473b-8561-9aeb56bb8625))
+    (pin "7" (uuid 1b90acd9-0bc1-472b-a36d-40cc78d982a7))
+    (pin "8" (uuid 2ba135eb-7bc9-482a-8c7b-850131d5272b))
+    (pin "9" (uuid 16de8994-5646-41e2-8cc7-730ab14b617e))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1113,7 +1110,7 @@
     (property "Datasheet" "~" (at 165.1 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4024e29a-6717-466c-b086-126fae95ebe3))
+    (pin "1" (uuid b130df1e-5787-4603-9f42-2d0d0e5adf0d))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1138,7 +1135,7 @@
     (property "Datasheet" "" (at 106.68 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f5115f9a-2973-4099-a8fc-a3bbf2c4389b))
+    (pin "1" (uuid c85c2692-6b36-4005-a6db-495860c424c2))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1163,7 +1160,7 @@
     (property "Datasheet" "" (at 88.9 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 26a89135-3666-4026-ba9c-ebfea0262d63))
+    (pin "1" (uuid c44e55e9-01a5-4791-bd89-ed66b20ee2c5))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1188,7 +1185,7 @@
     (property "Datasheet" "" (at 104.14 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1b1581c6-88e1-4824-bd84-4ab8630b94dd))
+    (pin "1" (uuid d637451b-3441-403b-a439-f0e399c8688b))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1213,7 +1210,7 @@
     (property "Datasheet" "~" (at 190.5 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 794c9f9e-a791-46fe-84f6-5f6fe57353e2))
+    (pin "1" (uuid f7de350f-820c-487e-9981-30f38ce1aaf7))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1238,7 +1235,7 @@
     (property "Datasheet" "" (at 100.33 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 52bfcc74-4882-4ee5-ae15-6a39fc4b49d2))
+    (pin "1" (uuid 38d2c883-b21a-4994-a88d-a61a6749e2c4))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1263,7 +1260,7 @@
     (property "Datasheet" "" (at 41.91 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5cfd68c5-72be-42b5-8e04-57c348716471))
+    (pin "1" (uuid 68e7278f-9c28-4c95-ac85-3680b185a386))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1282,14 +1279,14 @@
     (property "Value" "1K" (at 78.74 121.92 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 77.978 120.65 0)
+    (property "Footprint" "Way to silence:R_0603_1608Metric" (at 77.978 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 76.2 120.65 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ab52d073-42f2-412c-a38f-fd2540dc2a46))
-    (pin "2" (uuid 648663e3-5dda-4819-9fd7-dd1b69f198d7))
+    (pin "1" (uuid cb3ba9e4-62cc-4e98-ae15-800ec7c672ce))
+    (pin "2" (uuid f2617a8a-22c1-4b9f-ac74-df267b500d9a))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1314,7 +1311,7 @@
     (property "Datasheet" "" (at 190.5 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e8b488b0-33c3-41b3-af80-b2b4cdc3fe4c))
+    (pin "1" (uuid ce1597d1-4beb-4c77-8204-4069d69f072d))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1336,16 +1333,16 @@
     (property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2" (at 130.81 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110111730_UMW-Youtai-Semiconductor-Co---Ltd--AMS1117-3-3_C347222.pdf" (at 132.08 63.5 0)
+    (property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf" (at 132.08 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C347222" (at 129.54 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 47cf19e8-c1c7-4322-8477-999291cb69fe))
-    (pin "2" (uuid 4f2d64ea-9615-46c5-9756-92751815fa82))
-    (pin "3" (uuid 83f58d7c-395f-41a8-9635-6ba9b68a4aa1))
-    (pin "4" (uuid f436029e-c856-46f9-bdca-5786546f77e2))
+    (pin "1" (uuid 5f60ad9e-d016-421d-87b6-7bc686e08385))
+    (pin "2" (uuid ee6b3584-8305-4a9f-a98c-c17e15080244))
+    (pin "3" (uuid 4425d087-635b-41a0-b238-c230fc80ae29))
+    (pin "4" (uuid 04a646dc-7d15-4f84-9c69-1c0b16f5e03a))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1370,7 +1367,7 @@
     (property "Datasheet" "" (at 165.1 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 816f5156-81ec-4284-ae7b-746f83d015d2))
+    (pin "1" (uuid 9ebd60e7-8548-4f33-b511-e8713dbdebc8))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1392,15 +1389,15 @@
     (property "Footprint" "Way to silence:SW_SPDT" (at 107.95 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://github.com/juthomas/Way-To-Silence/blob/main/DataSheets/K3-1204D.pdf" (at 109.22 50.8 0)
+    (property "Datasheet" "~" (at 109.22 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C145861" (at 107.95 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1102cf0c-5e84-4e85-8f6e-3b2cc191c670))
-    (pin "2" (uuid 53e4bc02-a6ee-45b1-bedd-1a882ca0130d))
-    (pin "3" (uuid 2b72ff2e-6536-4329-babf-3d60222a486e))
+    (pin "1" (uuid 51584200-9ed7-4294-8e86-98ce2cd53ca1))
+    (pin "2" (uuid b03a5096-8b58-40f3-bd39-4708c6b7dfa6))
+    (pin "3" (uuid 31fe3c64-8d53-41c8-84aa-771489a11040))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1425,7 +1422,7 @@
     (property "Datasheet" "" (at 41.91 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 67001629-9702-4202-8019-0ffa550d1213))
+    (pin "1" (uuid 56527483-579c-43c7-b45e-4809844dce64))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1441,17 +1438,17 @@
     (property "Reference" "C17" (at 147.32 91.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "C" (at 147.32 93.98 90)
+    (property "Value" "10uF" (at 147.32 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 142.5448 88.9 90)
+    (property "Footprint" "Way to silence:C_0603_1608Metric" (at 142.5448 88.9 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 143.51 92.71 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6b7e8d0b-9202-4612-aefe-a6a0d0f92169))
-    (pin "2" (uuid 0e86957c-74a6-42c5-9714-fc0dc9c25841))
+    (pin "1" (uuid bd0efde0-4992-4a65-bc8a-f191e3cbb2c3))
+    (pin "2" (uuid 8463a0e4-833c-4c73-911a-d58e062ee5b4))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1470,14 +1467,17 @@
     (property "Value" "LED" (at 80.01 131.1275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 76.2 128.27 0)
+    (property "Footprint" "Way to silence:LED_0603" (at 76.2 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 76.2 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dfc05bc4-7df5-4421-8270-1ed8d514f892))
-    (pin "2" (uuid cd5a9093-30a9-41fe-bb6d-c39154794630))
+    (property "LCSC" "C84263" (at 71.12 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8eb3ec3b-0c66-4211-a5e0-9a8cde6b7589))
+    (pin "2" (uuid 83673ae0-cb65-4568-a5d7-0e3ff1ac19de))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1496,14 +1496,17 @@
     (property "Value" "LED" (at 92.71 131.1275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 88.9 128.27 0)
+    (property "Footprint" "Way to silence:LED_0603" (at 88.9 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b191ddf1-41f7-4d8f-a227-f00a41202624))
-    (pin "2" (uuid 71d5dc25-7699-4833-ad63-1d036547f7fd))
+    (property "LCSC" "C84263" (at 83.82 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e5e757b3-2846-4ed6-942d-547459d5060c))
+    (pin "2" (uuid fa48acac-d172-47c5-aa6c-9548395286c7))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1519,17 +1522,17 @@
     (property "Reference" "C18" (at 158.75 91.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "C" (at 158.75 93.98 90)
+    (property "Value" "100nF" (at 158.75 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 153.9748 88.9 90)
+    (property "Footprint" "Way to silence:C_0603_1608Metric" (at 153.9748 88.9 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.94 92.71 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7a3940f-2809-4629-8b66-847942d67b6a))
-    (pin "2" (uuid 169797bf-eea8-4f4d-856f-6d5ca30d579e))
+    (pin "1" (uuid 0a04d919-0094-4218-85ec-b4dbad76c9b5))
+    (pin "2" (uuid b50faef3-b974-43b3-8901-23e145f3264f))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1548,14 +1551,14 @@
     (property "Value" "1K" (at 91.44 121.92 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 90.678 120.65 0)
+    (property "Footprint" "Way to silence:R_0603_1608Metric" (at 90.678 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 120.65 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e21a233-f794-42ae-abc6-d00e83a83f80))
-    (pin "2" (uuid 47c518e8-19ef-482f-bed3-d987f35702fe))
+    (pin "1" (uuid b4fad53f-0388-4fe9-afbd-afd7c7359c42))
+    (pin "2" (uuid d031679e-cce1-46f9-8b42-198f5a50b861))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1580,7 +1583,7 @@
     (property "Datasheet" "" (at 100.33 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bbeaed1b-ef8d-4dcd-9723-4556a5aeb664))
+    (pin "1" (uuid 7e8dd95e-98bc-4ec9-96bf-0f890ee2436d))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1596,17 +1599,17 @@
     (property "Reference" "C20" (at 104.14 91.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "C" (at 104.14 93.98 90)
+    (property "Value" "10uF" (at 104.14 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 99.3648 88.9 90)
+    (property "Footprint" "Way to silence:C_0603_1608Metric" (at 99.3648 88.9 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.33 92.71 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1a5624f-5390-4b61-8cd9-6b742edf2699))
-    (pin "2" (uuid 51f284ab-e134-4150-8e08-8da6a054f9a7))
+    (pin "1" (uuid cce3ace8-9844-4f71-9dc7-3046b4c68a67))
+    (pin "2" (uuid ec27d007-e998-4dec-b5e1-7c8290f39c32))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1631,7 +1634,7 @@
     (property "Datasheet" "" (at 88.9 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 694077ac-6b86-45ba-89ea-dd3fa0b9982b))
+    (pin "1" (uuid 55a40fda-67f6-42c9-b6ae-cbc651871eee))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1647,17 +1650,17 @@
     (property "Reference" "C19" (at 115.57 91.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "C" (at 115.57 93.98 90)
+    (property "Value" "100nF" (at 115.57 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 110.7948 88.9 90)
+    (property "Footprint" "Way to silence:C_0603_1608Metric" (at 110.7948 88.9 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 92.71 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 17610508-1afc-470b-a96f-76477b82e8cd))
-    (pin "2" (uuid d656521d-31d3-43c6-a3fc-b91db6646735))
+    (pin "1" (uuid 817966d0-fee8-4620-b5c3-7cb8c4a9c1ab))
+    (pin "2" (uuid 1385d12a-d649-4348-8941-b496a69b024a))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1682,7 +1685,7 @@
     (property "Datasheet" "" (at 76.2 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1bc17ef3-f5d0-4bcc-8d9f-cef077489400))
+    (pin "1" (uuid 2cb54775-3fe3-4153-976e-8803d33e1c0a))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1707,7 +1710,7 @@
     (property "Datasheet" "" (at 154.94 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2fcd4558-f33c-475e-ac03-3b1b6760d10d))
+    (pin "1" (uuid 646c21c1-a17a-4463-93ec-d9ce1412e45b))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1732,8 +1735,8 @@
     (property "Datasheet" "~" (at 107.95 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eab40c1a-ab5d-4ef4-bf2d-e5e028c09fa6))
-    (pin "2" (uuid 436073f1-bfdb-4840-a018-6a1345a1a5e7))
+    (pin "1" (uuid fdb29444-97fd-4a3f-ac21-3b0573fa4c50))
+    (pin "2" (uuid c473c88d-0563-4a61-8845-a22116c27cbc))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1758,8 +1761,8 @@
     (property "Datasheet" "~" (at 106.68 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d0d3f846-0239-4937-ae62-c66d95f28eaf))
-    (pin "2" (uuid 96900bde-45ad-41d2-834f-957700ad404d))
+    (pin "1" (uuid 31c450d7-c822-4be3-a9b6-7b74380a7924))
+    (pin "2" (uuid a05a05bc-8462-4863-ade4-f6d74d345c2e))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
@@ -1784,7 +1787,7 @@
     (property "Datasheet" "" (at 129.54 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 348da750-eae4-4767-adcf-035ec2c2ef0e))
+    (pin "1" (uuid 3ce8e0a4-267e-439f-bfba-97b69c229ee4))
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"

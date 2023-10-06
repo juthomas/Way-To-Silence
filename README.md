@@ -24,6 +24,7 @@
 - [Bornier 3.5mm](https://www.lcsc.com/product-detail/Screw-terminal_Ningbo-Xinlaiya-Elec-XY350V-3-5-2P_C784942.html) € 0.1065
 - [Inductance (a verifier)](https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-2R2M_C2847469.html) € 0.7154
 - [Battery Switch](https://jlcpcb.com/partdetail/Korean_HropartsElec-K31204D/C145861) € 0.8814
+- [100uF Capacitor](https://jlcpcb.com/partdetail/MurataElectronics-GRM188R60J106ME47D/C77041)
 
 ## Tools used
 
