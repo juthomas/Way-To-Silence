@@ -28,11 +28,14 @@
 - [10uF Capacitor](https://jlcpcb.com/partdetail/MurataElectronics-GRM188R60J106ME47D/C77041) € 0.0085	
 - [22uF Capacitor](https://jlcpcb.com/partdetail/60514-CL10A226MQ8NRNC/C59461) € 0.0085
 - [100nF Capacitor](https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663) € 0.0022
+- [220pF Capacitor](https://jlcpcb.com/partdetail/1955-CL10B221KB8NNNC/C1603) € 0.0055
 - [0Ω Resistor](https://jlcpcb.com/partdetail/21903-0603WAF0000T5E/C21189) € 0.0011
 - [100mΩ Resistor](https://jlcpcb.com/partdetail/112253-0603WAF100LT5E/C111027) € 0.0039
 - [500mΩ Resistor](https://jlcpcb.com/partdetail/Fojan-FRL0603FR500TS/C2934253) € 0.0031
 - [1Ω Resistor](https://jlcpcb.com/partdetail/25955-0603WAJ010JT5E/C25212) € 0.0009
+- [1MΩ Resistor](https://jlcpcb.com/partdetail/23662-0603WAF1004T5E/C22935) € 0.0011
 - [RED LED](https://jlcpcb.com/partdetail/85432-NCD0603R1/C84263) € 0.0078
+- [Ferrite Bead](https://jlcpcb.com/partdetail/373749-CBW160808U470T/C394474) € 0.0030
 ## Tools used
 
 - [EasyEDA to KiCad](https://wokwi.com/tools/easyeda2kicad)
