@@ -22,7 +22,8 @@
 - [3.3V Regulator](https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_UMW-Youtai-Semiconductor-Co-Ltd-AMS1117-3-3_C347222.html) € 0.0398
 
 - [Bornier 3.5mm](https://www.lcsc.com/product-detail/Screw-terminal_Ningbo-Xinlaiya-Elec-XY350V-3-5-2P_C784942.html) € 0.1065
-- [Inductance (a verifier)](https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-2R2M_C2847469.html) € 0.7154
+- [2.2uH Inductance](https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-2R2M_C2847469.html) € 0.7154
+- [1uH Inductance](https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-1R0M_C2847468.html#) € 0.7287
 - [Battery Switch](https://jlcpcb.com/partdetail/XkbConnectivity-SS12D10L3/C319013) € 0.8814
 - [4.7nF Capacitor](https://jlcpcb.com/partdetail/55004-0603B472K500NT/C53987) € 0.0025
 - [4.7uF Capacitor](https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666) € 0.0095
@@ -34,6 +35,8 @@
 - [100mΩ Resistor](https://jlcpcb.com/partdetail/112253-0603WAF100LT5E/C111027) € 0.0039
 - [500mΩ Resistor](https://jlcpcb.com/partdetail/Fojan-FRL0603FR500TS/C2934253) € 0.0031
 - [1Ω Resistor](https://jlcpcb.com/partdetail/25955-0603WAJ010JT5E/C25212) € 0.0009
+- [1kΩ Resistor](https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190) € 0.0006
+
 - [5.11kΩ Resistor](https://jlcpcb.com/partdetail/419038-TC0350B5111T5E/C425414) € 0.0167
 - [10kΩ Resistor](https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804) € 0.0009
 - [1MΩ Resistor](https://jlcpcb.com/partdetail/23662-0603WAF1004T5E/C22935) € 0.0011
