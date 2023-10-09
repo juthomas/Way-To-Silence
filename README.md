@@ -25,6 +25,8 @@
 - [2.2uH Inductance](https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-2R2M_C2847469.html) € 0.7154
 - [1uH Inductance](https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-1R0M_C2847468.html#) € 0.7287
 - [Battery Switch](https://jlcpcb.com/partdetail/XkbConnectivity-SS12D10L3/C319013) € 0.8814
+- [Reset Button](https://jlcpcb.com/partdetail/Xunpu-TS_1088R02026/C455280) € 0.0448
+
 - [4.7nF Capacitor](https://jlcpcb.com/partdetail/55004-0603B472K500NT/C53987) € 0.0025
 - [4.7uF Capacitor](https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666) € 0.0095
 - [10uF Capacitor](https://jlcpcb.com/partdetail/MurataElectronics-GRM188R60J106ME47D/C77041) € 0.0085	

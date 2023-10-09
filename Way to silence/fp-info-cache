@@ -1,4 +1,4 @@
-18659955995620
+28841488803984
 Way to silence
 AMS1117CD-3.3
 
@@ -28,12 +28,40 @@ ESP32-WROOM-32
 60
 39
 Way to silence
+FB_0603
+
+
+0
+2
+2
+Way to silence
+Inductor
+
+
+0
+2
+2
+Way to silence
+LED_0603
+
+
+0
+2
+2
+Way to silence
 MAX98357
 
 
 0
 17
 17
+Way to silence
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
 Way to silence
 R_0603_1608Metric
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -63,12 +91,26 @@ SW_SPDT
 3
 3
 Way to silence
+SW_SPST
+
+
+0
+2
+2
+Way to silence
 Screw_Terminal_3.5
 
 
 0
 2
 2
+Way to silence
+TS-1187A
+
+
+0
+4
+4
 Way to silence
 USB_C_Receptacle
 
