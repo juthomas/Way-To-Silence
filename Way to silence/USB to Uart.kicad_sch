@@ -1237,7 +1237,7 @@
   (symbol (lib_id "Way to silence:CP2102") (at 110.49 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0d02ac2-97a5-41d4-86a5-d87e12e0cd51)
-    (property "Reference" "U3" (at 110.49 53.34 0)
+    (property "Reference" "U?" (at 110.49 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CP2102-GMR" (at 110.49 78.74 0)
@@ -1284,7 +1284,7 @@
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
-          (reference "U3") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/9822a1be-a034-44c3-8530-56368958b215/a2ee35dd-b0f9-4eed-a2dd-4bc114f32cf5"
           (reference "U3") (unit 1)

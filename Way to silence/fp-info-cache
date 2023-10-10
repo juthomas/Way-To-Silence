@@ -1,4 +1,4 @@
-28841488803984
+30538586257740
 Way to silence
 AMS1117CD-3.3
 
@@ -62,6 +62,13 @@ mounting hole 3.2mm no annular m3
 0
 0
 0
+Way to silence
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
 Way to silence
 R_0603_1608Metric
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator

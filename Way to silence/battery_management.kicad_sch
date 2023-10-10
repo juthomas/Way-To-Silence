@@ -1133,7 +1133,7 @@
   (symbol (lib_id "Way to silence:SM5308") (at 76.2 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5a7310e-9ec9-46fd-8318-749293de0e52)
-    (property "Reference" "U2" (at 76.2 36.83 0)
+    (property "Reference" "U?" (at 76.2 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SM5308" (at 76.2 50.8 0)
@@ -1160,7 +1160,7 @@
     (instances
       (project "Way to silence"
         (path "/9822a1be-a034-44c3-8530-56368958b215"
-          (reference "U2") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/9822a1be-a034-44c3-8530-56368958b215/be1db4b6-aade-41cb-8a40-ce07da27a5fd"
           (reference "U2") (unit 1)
