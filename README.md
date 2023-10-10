@@ -43,6 +43,7 @@
 - [10kΩ Resistor](https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804) € 0.0009
 - [1MΩ Resistor](https://jlcpcb.com/partdetail/23662-0603WAF1004T5E/C22935) € 0.0011
 - [RED LED](https://jlcpcb.com/partdetail/85432-NCD0603R1/C84263) € 0.0078
+- [Yellow LED](https://jlcpcb.com/partdetail/85437-NCD0603Y1/C84268) € 0.0111
 - [Ferrite Bead](https://jlcpcb.com/partdetail/373749-CBW160808U470T/C394474) € 0.0030
 - [Transistor](https://jlcpcb.com/partdetail/Shikues-BC817/C475629) € 0.0150
 

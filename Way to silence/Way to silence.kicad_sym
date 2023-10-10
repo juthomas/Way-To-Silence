@@ -706,7 +706,7 @@
     (property "Datasheet" "~" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C84263" (at 0 5.08 0)
+    (property "LCSC" "C84268" (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "LED diode" (at 0 0 0)
