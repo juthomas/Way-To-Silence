@@ -2,7 +2,13 @@
 
   (uuid c7d04399-0adb-4b8c-bef3-e741e074f9e3)
 
-  (paper "A4")
+  (paper "A5")
+
+  (title_block
+    (title "Battery Management")
+    (date "2023-10-10")
+    (rev "1.0")
+  )
 
   (lib_symbols
     (symbol "Way to silence:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)

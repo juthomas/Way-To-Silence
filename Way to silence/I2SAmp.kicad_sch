@@ -2,7 +2,13 @@
 
   (uuid 638072f4-35d6-436c-a9ae-8d80394b3b4c)
 
-  (paper "A4")
+  (paper "A5")
+
+  (title_block
+    (title "I2S Amplifier")
+    (date "2023-10-10")
+    (rev "1.0")
+  )
 
   (lib_symbols
     (symbol "Way to silence:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
