@@ -5,7 +5,7 @@
   (paper "A5")
 
   (title_block
-    (title "Battery Management")
+    (title "Battery Management System")
     (date "2023-10-10")
     (rev "1.0")
   )
