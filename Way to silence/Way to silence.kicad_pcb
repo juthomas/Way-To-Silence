@@ -2552,6 +2552,7 @@
   (footprint "Way to silence:ESP32-WROOM-32" (layer "F.Cu")
     (tstamp 73cd38e0-a536-451a-a710-d1828e3272c2)
     (at 97.082198 61.013198)
+    (property "JLCPCB Position Offset" "-0.1, -0.95")
     (property "LCSC" "C529581")
     (property "Sheetfile" "Way to silence.kicad_sch")
     (property "Sheetname" "")

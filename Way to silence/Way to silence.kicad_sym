@@ -415,6 +415,9 @@
     (property "LCSC" "C529581" (at 0 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB Position Offset" "-0.1, -0.95" (at 0 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "ESP32-WROOM-32-N16_0_1"
       (rectangle (start -12.7 33.02) (end 12.7 -33.02)
         (stroke (width 0.254) (type default))
