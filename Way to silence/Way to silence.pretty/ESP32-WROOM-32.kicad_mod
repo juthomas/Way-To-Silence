@@ -139,9 +139,9 @@
       )
     )
   )
-  (model ":KICAD7_3DMODEL_DIR:RF_Module.3dshapes/ESP32-WROOM-32.step"
-    (offset (xyz 0 -0.2 0))
+  (model "/Users/juthomas/Documents/Electronics/Vincent/3D Models/ESP 32/KiCAD-ESP-WROOM-32.step"
+    (offset (xyz -0.1 2.8 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 180))
   )
 )

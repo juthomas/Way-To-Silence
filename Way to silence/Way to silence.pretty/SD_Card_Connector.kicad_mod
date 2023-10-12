@@ -52,9 +52,9 @@
   (pad "G" smd rect (at -7.725 5.3) (size 1.2 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a8a6b4aa-0faa-4043-9dbd-b4a45916c371))
   (pad "G" smd rect (at 6.875 -4.3) (size 1.6 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 19d9251e-f7eb-4fba-aad6-7dfb2b2292f0))
   (pad "G" smd rect (at 7.775 5.3) (size 1.2 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 71bde28b-6618-47b0-bf63-d71c4c56d826))
-  (model ":KICAD7_3DMODEL_DIR:Connector_Card.3dshapes/microSD_HC_Hirose_DM3D-SF.step"
-    (offset (xyz 0 -2.5 0))
-    (scale (xyz 1.3 1.3 1))
-    (rotate (xyz 0 0 180))
+  (model "/Users/juthomas/Documents/Electronics/Vincent/3D Models/Micro SD/Micro_SD_Card_and_Holder.stp"
+    (offset (xyz 0 -8 7.7))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )
