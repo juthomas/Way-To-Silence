@@ -9,7 +9,7 @@
 
 ## Bill Of Materials
 
-- [Link to IBOM]()
+- [Link to IBOM](https://juthomas.github.io/Way-To-Silence/)
 ## Components
 - [I2S Amplifier Module MAX98357A](https://www.lcsc.com/product-detail/Audio-Power-OpAmps_Analog-Devices-Inc-Maxim-Integrated-MAX98357AETE-T_C910544.html) € 0.7886
 
