@@ -2,6 +2,14 @@
 
 ## Goals
 - Develop a module based on the ESP32, designed to read audio tracks stored on an SD card and to transmit them through a speaker output. Users should be able to adjust the parameters of these audio tracks, such as volume and balance, via an intuitive and easily accessible web interface. Furthermore, control over the tracks and playback settings via UDP signals is essential. This interface will provide users with the opportunity to customize their listening experience and adjust settings to their preferences. It will also ensure quick and efficient communication with the module through the UDP protocol. In addition, effective battery management is crucial to ensure the module's durability and optimal performance.
+
+## Schematics
+
+- [Link to pdf](https://github.com/juthomas/Way-To-Silence/blob/main/Schematics%20PDF/Way%20to%20silence.pdf)
+
+## Bill Of Materials
+
+- [Link to IBOM]()
 ## Components
 - [I2S Amplifier Module MAX98357A](https://www.lcsc.com/product-detail/Audio-Power-OpAmps_Analog-Devices-Inc-Maxim-Integrated-MAX98357AETE-T_C910544.html) € 0.7886
 
