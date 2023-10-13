@@ -1,8 +1,8 @@
 # WAY TO SILENCE
 
-##Goals
-- Develop a module, powered by an ESP32, capable of reading audio tracks stored on an SD card and transmitting them through a speaker output. The parameters of these audio tracks, such as volume and balance, should be modifiable via an accessible web interface. Additionally, the control of the tracks and playback settings should be achievable through UDP signals. This interface would allow users to customize their listening experience and adjust the settings to their liking while ensuring fast and efficient communication with the module via UDP. + battery management
-##Components
+## Goals
+- Develop a module based on the ESP32, designed to read audio tracks stored on an SD card and to transmit them through a speaker output. Users should be able to adjust the parameters of these audio tracks, such as volume and balance, via an intuitive and easily accessible web interface. Furthermore, control over the tracks and playback settings via UDP signals is essential. This interface will provide users with the opportunity to customize their listening experience and adjust settings to their preferences. It will also ensure quick and efficient communication with the module through the UDP protocol. In addition, effective battery management is crucial to ensure the module's durability and optimal performance.
+## Components
 - [I2S Amplifier Module MAX98357A](https://www.lcsc.com/product-detail/Audio-Power-OpAmps_Analog-Devices-Inc-Maxim-Integrated-MAX98357AETE-T_C910544.html) € 0.7886
 
 - [SD Card Connector](https://jlcpcb.com/partdetail/gswitch-GT_TF003_H018502/C5155564) € 0.1553
@@ -49,10 +49,10 @@
 
 ## Tools used
 
-- [EasyEDA to KiCad](https://wokwi.com/tools/easyeda2kicad)
 - [KiCad](https://www.kicad.org/)
+- [KiCad Fabrication Toolkit Plugin](https://github.com/bennymeg/JLC-Plugin-for-KiCad)
+- [KiCad Interactive Html Bom Plugin](https://github.com/openscopeproject/InteractiveHtmlBom)
 - [LCSC](https://www.lcsc.com/)
 - [JCLPCB](https://jlcpcb.com/)
-- https://jlcpcb.com/help/article/81-How-to-generate-the-BOM-and-Centroid-file-from-KiCAD
-- https://www.youtube.com/watch?v=VejO8rDdhzo
-- https://www.pcbway.com/blog/PCB_Design_Tutorial/How_to_add_USB_C_to_your_projects.html
+
+- [EasyEDA to KiCad](https://wokwi.com/tools/easyeda2kicad)
