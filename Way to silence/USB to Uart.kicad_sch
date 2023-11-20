@@ -948,6 +948,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bed05c5f-ddae-4516-9d75-07fce7f80044)
   )
+  (text "10uF vers le GND et 10K Ohm\nvers le 3.3V\npour la programmation automatique"
+    (at 104.14 36.83 0)
+    (effects (font (size 1.27 1.27) (color 241 0 0 1)) (justify left bottom))
+    (uuid f62327b4-b0c5-433e-a49d-0a53fd81256c)
+  )
 
   (label "SH" (at 152.4 24.13 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
