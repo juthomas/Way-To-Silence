@@ -1229,6 +1229,10 @@
     (uuid f90c37ed-0e8d-4df9-b05b-2029b74e7e1a)
   )
 
+  (text "vers EN\nau lieu de IO0" (at 63.5 21.59 0)
+    (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
+    (uuid 17fe5175-dc11-407e-9686-afbb3473869e)
+  )
   (text "LEDs Port" (at 91.44 58.42 0)
     (effects (font (size 1.5 1.5) (thickness 0.4) bold) (justify right bottom))
     (uuid 299631e4-fde9-4670-8c48-24e188652334)
