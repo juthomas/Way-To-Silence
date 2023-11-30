@@ -1229,7 +1229,7 @@
     (uuid f90c37ed-0e8d-4df9-b05b-2029b74e7e1a)
   )
 
-  (text "vers EN\nau lieu de IO0" (at 63.5 21.59 0)
+  (text "vers EN\nau lieu de IO0" (at 60.96 7.62 0)
     (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
     (uuid 17fe5175-dc11-407e-9686-afbb3473869e)
   )
@@ -1318,7 +1318,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3a3093ff-9170-4f7e-8fe6-1dfb482c10c9)
   )
-  (label "ESP_IO0" (at 71.12 26.67 180) (fields_autoplaced)
+  (label "ESP_EN" (at 71.12 26.67 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4fac2867-c889-4caf-b1f0-d2d4f0b8714b)
   )
