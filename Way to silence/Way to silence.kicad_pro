@@ -413,8 +413,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Way to silence"
+    ],
+    "pinned_symbol_libs": [
+      "Way to silence"
+    ]
   },
   "meta": {
     "filename": "Way to silence.kicad_pro",
