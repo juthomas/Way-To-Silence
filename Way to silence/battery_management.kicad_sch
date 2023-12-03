@@ -1414,7 +1414,7 @@
     (property "Value" "2.2UH" (at 104.14 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Way to silence:Inductor" (at 101.6 48.26 90)
+    (property "Footprint" "Way to silence:Inductor-0630LR" (at 101.6 48.26 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 101.6 48.26 90)
