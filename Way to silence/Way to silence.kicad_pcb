@@ -7265,7 +7265,7 @@
   (gr_text "RST" (at 110.401798 64.199198) (layer "F.SilkS") (tstamp 1fbf5104-aca0-4792-b039-5916aca04503)
     (effects (font (size 1 0.8) (thickness 0.2) bold) (justify bottom))
   )
-  (gr_text "Ways to Silence" (at 99.06 75.819) (layer "F.SilkS") (tstamp 55968c0d-596c-4c88-9f08-f4f9743e8616)
+  (gr_text "Way to Silence" (at 99.06 75.819) (layer "F.SilkS") (tstamp 55968c0d-596c-4c88-9f08-f4f9743e8616)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
   )
   (gr_text "Way To Silence" (at 71.438198 80.632998) (layer "F.SilkS") (tstamp 5cf16526-1655-439d-a607-bab7a2a4cbcb)
